@@ -44,3 +44,6 @@
 
 ### 4.1 Servidor Sinatra
 `docker run -it -v $PWD:/opt/src -p 80:3000 minha_imagem`
+
+### 4.2 Simplificando com o Docker Compose
+`docker-compose up app`
