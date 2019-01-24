@@ -20,3 +20,12 @@
 `docker run -it ruby:2.6 bash`
 
 `docker run -it ruby:2.5 bash`
+
+## PASSO 2
+
+### 2.1 Imagem Personalizada
+
+* Criar o Dockerfile
+* Executar `docker build -t minha_imagem .` para criar a imagem
+
+`docker run -it -p 80:3000 minha_imagem`
