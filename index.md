@@ -39,3 +39,8 @@
 
 ### 3.2 Volumes
 `docker run -it -v $PWD:/docs -p 80:3000 minha_imagem`
+
+## PASSO 4
+
+### 4.1 Servidor Sinatra
+`docker run -it -v $PWD:/opt/src -p 80:3000 minha_imagem`
