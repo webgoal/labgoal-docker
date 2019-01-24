@@ -29,3 +29,13 @@
 * Executar `docker build -t minha_imagem .` para criar a imagem
 
 `docker run -it -p 80:3000 minha_imagem`
+
+## PASSO 3
+
+### 3.1 Portas
+`docker run -it -p 81:3000 minha_imagem`
+
+`docker run -it -p 9000:3000 minha_imagem`
+
+### 3.2 Volumes
+`docker run -it -v $PWD:/docs -p 80:3000 minha_imagem`
