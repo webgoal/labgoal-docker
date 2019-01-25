@@ -47,3 +47,10 @@
 
 ### 4.2 Simplificando com o Docker Compose
 `docker-compose up app`
+
+## PASSO 5
+
+### 5.1 Links entre containers
+* Adicionar as configurações do mysql no docker-compose
+
+`docker-compose up app`
