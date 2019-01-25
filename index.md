@@ -54,3 +54,8 @@
 * Adicionar as configurações do mysql no docker-compose
 
 `docker-compose up app`
+
+### 5.2
+* Adicionar as configurações do phpmyadmin no docker-compose
+
+`docker-compose up`
