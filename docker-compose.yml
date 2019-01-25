@@ -15,3 +15,12 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: labgoal
       MYSQL_DATABASE: app_development
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+    ports:
+      - 81:80
+    links:
+      - mysql_host
